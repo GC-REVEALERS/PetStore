@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.outerContainer {
+    background: linear-gradient(to right, #FFFFFF, #964B00);
+    flex-direction: column;
+}
+.backgroundImage {
+    position: relative;
+    background-image: url('../assets/GroupDogs.jpg');
+    background-size: contain;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+}
+.myInput {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 25px;
+}
+.submitButtonStyle {
+    height: 6vh;
+    width: 20vw;
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    font-size: 25px;
+}
+.homeContainer {
+    height: 60vh;
+    width: 90vw;
+    justify-content:flex-end;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    padding-bottom: 20px;
+}
+.petsEntryData{
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-content: space-around;
+        /* background-color: red; */
+}
+.headingStyl{
+    color: #964B00;
+    font-size: 70px;
+}
+.dataEntryListingStyle{
+    display: flex;
+    flex-direction: row;
+}
+.mapContainer{
+    background-color: #EADDCA;
+        height: 40vh;
+        width: 25vw;
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        margin-bottom: 20px;
+}
+.mapOuterContainer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mapOuterContainer > div{
+    flex-basis: calc(20% - 40px);
+}
+.cardDogStyl{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+.headingDiv{
+    margin-bottom: 25px;
+}
+.heading2styl{
+    color: #964B00;
+    font-size: 50px;
+}
